@@ -8,5 +8,5 @@ provider "aws" {
 resource "aws_cloudformation_stack" "bucket" {
   name = "s3-bucket-creation"
 
-  template_body = file("/templates/bucket.yml")
+  template_body = file("templates/bucket.yml")
 }
