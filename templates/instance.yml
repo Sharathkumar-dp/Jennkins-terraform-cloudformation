@@ -18,3 +18,5 @@ Resources:
     Properties: 
       InstanceType: !Ref InstanceTypeParameter
       ImageId: ami-0533def491c57d991
+      tags:
+        Name : Jenk-cf-ter
